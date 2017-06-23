@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<monthly>
+
+	<event>
+		<id>1</id>
+		<name></name>
+		<startdate></startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color></color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>2</id>
+		<name></name>
+		<startdate></startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color></color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>3</id>
+		<name></name>
+		<startdate></startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color></color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>4</id>
+		<name></name>
+		<startdate></startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color></color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>5</id>
+		<name></name>
+		<startdate></startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color></color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>6</id>
+		<name></name>
+		<startdate></startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color></color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>7</id>
+		<name>Volta as aulas</name>
+		<startdate>2016-3-07</startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#7d8b25</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>8</id>
+		<name>Feriadão/Paixão de Cristo</name>
+		<startdate>2016-3-25</startdate>
+		<enddate>2016-3-26</enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>9</id>
+		<name>Feriadão/Tiradentes</name>
+		<startdate>2016-4-21</startdate>
+		<enddate>2016-4-23</enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>10</id>
+		<name>Feriadão/Corpus Christi</name>
+		<startdate>2016-5-26</startdate>
+		<enddate>2016-5-28</enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>11</id>
+		<name>Recesso</name>
+		<startdate>2016-7-17</startdate>
+		<enddate>2016-7-31</enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>12</id>
+		<name>Feriadão/Padroeira da cidade</name>
+		<startdate>2016-8-01</startdate>
+		<enddate>2016-8-02</enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>12</id>
+		<name>Retorno das aulas</name>
+		<startdate>2016-8-03</startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#15197D</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>13</id>
+		<name>Feriado/Independência</name>
+		<startdate>2016-9-07</startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>14</id>
+		<name>Feriadão/Revolução Farroupilha</name>
+		<startdate>2016-9-19</startdate>
+		<enddate>2016-9-20</enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>15</id>
+		<name>Nossa Senhora da Aparecida</name>
+		<startdate>2016-10-12</startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>16</id>
+		<name>Dia do professor</name>
+		<startdate>2016-10-15</startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>17</id>
+		<name>Feriado/Finados</name>
+		<startdate>2016-11-02</startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>18</id>
+		<name>Feriadão/Proclamação da República</name>
+		<startdate>2016-11-14</startdate>
+		<enddate>2016-11-15</enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>19</id>
+		<name>último dia de aulas do ano letivo</name>
+		<startdate>2016-12-17</startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#ff0000</color>
+		<url></url>
+	</event>
+
+</monthly>

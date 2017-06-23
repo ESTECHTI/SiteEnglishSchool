@@ -1,0 +1,598 @@
+@charset "UTF-8";
+body {
+    background-color: #ffffff;
+    height: 1100px;
+    font-family: Arial, sans-serif;
+}
+
+
+div#interface {
+    width: 1200px;
+    height: 1050px;
+    margin: 280px auto 0 auto;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+
+p#copy {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h1 {
+    font-size: 20px;
+    color: #15197D;
+}
+hgroup#matricula {
+    position: absolute;
+    top: 300px;
+    left: 850px;
+    color: #15197D;
+    text-align: center;
+}
+h1#pm {
+    font-size: 30px;
+}
+h2#e {
+    font-size: 30px;
+}
+h3#descontos {
+    font-size: 30px;
+}
+
+/*Formatação do Google Maps*/
+
+#googlemaps {
+    position: relative;
+    top: -270px;
+}
+
+/*Formatação menu Show News*/
+
+#menuvaga {
+    position: relative;
+    top:-940px;
+}
+
+.menuvagaprof {
+    position: absolute;
+    top: 115px;
+    left:25px;
+    list-style: none;
+}
+.menuvagaprof li {
+    position: relative;
+    float: left;
+    box-shadow:  1px 1px 4px black;
+    margin: 1px;
+}
+.menuvagaprof li a {
+    color: #15197D; text-decoration: none; padding: 5px 10px; display: block;
+}
+.menuvagaprof li a:hover {
+    background: #ff0000;
+    color: #ffffff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    text-shadow:0 0 5px #fff;
+}
+
+/*Formatação imagem vagas*/
+#vagas {
+    position: relative;
+    top: -170px;
+    left: 100px;
+}
+
+
+
+
+/* Formatação Logo */
+
+header#cabecalho img#icone {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-shadow: 1px 1px 4px black;
+}
+
+header#cabecalho img#face {
+    position: absolute;
+    top: 15px;
+    left: 1075px;
+}
+
+header#cabecalho img#googleplus {
+    position: absolute;
+    top: 15px;
+    left: 1129px;
+}
+
+header#cabecalho img#twitter {
+    position: absolute;
+    top: 15px;
+    left: 1183px;
+}
+
+header#cabecalho img#youtube {
+    position: absolute;
+    top: 15px;
+    left: 1238px;
+}
+header#cabecalho img#whatsapp {
+    position: absolute;
+    top: 150px;
+    left: 1200px;
+}
+
+header#cabecalho hgroup#group {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #15197D;
+}
+
+header#cabecalho p#redessociais {
+    position: absolute;
+    top: 10px;
+    left: 840px;
+    color: #ff0000;
+}
+
+header#cabecalho p#residencial {
+    position: absolute;
+    top:110px;
+    left: 840px;
+    color: #ff0000;
+}
+
+header#cabecalho p#celular {
+    position: absolute;
+    top: 140px;
+    left: 1020px;
+    color: #ff0000;
+}
+
+header#cabecalho {
+    height: 270px;
+}
+/* Formatação do Menu*/
+.menu {
+    position: absolute;
+    top: 70px;
+    left: 350px;
+    list-style:none;
+}
+
+nav#menuprincipal h1 {
+   display: none;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+    box-shadow: 1px 1px 4px black;
+    margin: 1px;
+}
+
+.menu li a{color:#15197D; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+    background: #ff0000;;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    text-shadow:0 0 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:28px;
+    left:-42px;
+    display:none;
+    margin-outside: 10px;
+
+}
+
+.menu li:hover ul, .menu li.over ul{
+
+    display:block;
+
+
+}
+
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:90px;
+}
+
+.segundo-menu {
+    position: absolute;
+    top: 115px;
+    left: 1125px;
+    list-style: none;
+}
+.sobre-a-show {
+    position: absolute;
+    top: 220px;
+    left: 1100px;
+    list-style: none;
+}
+.sobre-a-show li {
+    position: relative;
+    float: left;
+    box-shadow:  1px 1px 4px black;
+    margin: 1px;
+}
+.sobre-a-show li a {
+    color: #15197D; text-decoration: none; padding: 5px 10px; display: block;
+}
+.sobre-a-show li a:hover {
+    background: #ff0000;
+    color: #ffffff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    text-shadow:0 0 5px #fff;
+}
+#estatua {
+    position: absolute;
+    top: 457px;
+    left: 640px;
+}
+#inglaterra {
+    position: absolute;
+    top: 783px;
+    left: 640px;
+}
+#ponteny {
+    position: absolute;
+    top: 1005px;
+    left: 640px;
+}
+#losangeles {
+    position: absolute;
+    top: 1196px;
+    left: 763px;
+}
+#madri {
+    position: absolute;
+    top: 457px;
+    left: 640px;
+}
+#machupicchu {
+    position: absolute;
+    top: 783px;
+    left: 640px;
+}
+#argentina {
+    position: absolute;
+    top: 1005px;
+    left: 640px;
+}
+#pracasevilla {
+    position: absolute;
+    top: 1196px;
+    left: 787px;
+}
+#coliseu {
+    position: absolute;
+    top: 457px;
+    left: 640px;
+}
+#veneza {
+    position: absolute;
+    top: 783px;
+    left: 640px;
+}
+#fonteroma {
+    position: absolute;
+    top: 1005px;
+    left: 640px;
+}
+#igrejaroma {
+    position: absolute;
+    top: 1196px;
+    left: 779px;
+}
+#torre {
+    position: absolute;
+    top: 457px;
+    left: 640px;
+}
+#louvre {
+    position: absolute;
+    top: 783px;
+    left: 640px;
+}
+#portico {
+    position: absolute;
+    top: 1005px;
+    left: 640px;
+}
+#pontefranca {
+    position: absolute;
+    top: 1196px;
+    left: 779px;
+}
+#salvador {
+    position: absolute;
+    top: 457px;
+    left: 640px;
+}
+#embratour {
+    position: absolute;
+    top: 783px;
+    left: 640px;
+}
+#mercado {
+    position: absolute;
+    top: 1005px;
+    left: 640px;
+}
+#sp {
+    position: absolute;
+    top: 1196px;
+    left: 792px;
+}
+#contato {
+    position: absolute;
+    top: 320px;
+    left: 640px;
+}
+#enderecousuario {
+    position: absolute;
+    top: 610px;
+    left: 560px;
+}
+#mensagemusuario {
+    position: absolute;
+    top: 860px;
+    left: 660px;
+}
+#cursosshow {
+    position: absolute;
+    top: 1040px;
+    left: 550px;
+}
+
+.ingles {
+    position: absolute;
+    font-size: 50px;
+    top: 400px;
+    left: 260px;
+    list-style: none;
+}
+.ingles li {
+    position: relative;
+    float: left;
+    box-shadow: 1px 1px 4px black;
+}
+.ingles li a {
+    color: #15197D; text-decoration: none; padding: 5px 10px; display: block;
+}
+.ingles li a:hover {
+    background: #ff0000;
+    color: #ffffff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    text-shadow:0 0 5px #fff;
+}
+.espanhol {
+    position: absolute;
+    font-size: 50px;
+    top: 400px;
+    left: 800px;
+    list-style: none;
+}
+.espanhol li {
+    position: relative;
+    float: left;
+    box-shadow: 1px 1px 4px black;
+}
+.espanhol li a {
+    color: #15197D; text-decoration: none; padding: 5px 10px; display: block;
+}
+.espanhol li a:hover {
+    background: #ff0000;
+    color: #ffffff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    text-shadow:0 0 5px #fff;
+}
+.italiano {
+    position: absolute;
+    font-size: 50px;
+    top: 600px;
+    left: 550px;
+    list-style: none;
+}
+.italiano li {
+    position: relative;
+    float: left;
+    box-shadow: 1px 1px 4px black;
+}
+.italiano li a {
+    color: #15197D; text-decoration: none; padding: 5px 10px; display: block;
+}
+.italiano li a:hover {
+    background: #ff0000;
+    color: #ffffff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    text-shadow:0 0 5px #fff;
+}
+.frances {
+    position: absolute;
+    left: 260px;
+    font-size: 50px;
+    top: 800px;
+    list-style: none;
+}
+.frances li {
+    position: relative;
+    float: left;
+    box-shadow: 1px 1px 4px black;
+}
+.frances li a {
+    color: #15197D; text-decoration: none; padding: 5px 10px; display: block;
+}
+.frances li a:hover {
+    background: #ff0000;
+    color: #ffffff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    text-shadow:0 0 5px #fff;
+}
+.portugues {
+    position: absolute;
+    left: 800px;
+    font-size: 50px;
+    top: 800px;
+    list-style: none;
+}
+.portugues li {
+    position: relative;
+    float: left;
+    box-shadow: 1px 1px 4px black;
+}
+.portugues li a {
+    color: #15197D; text-decoration: none; padding: 5px 10px; display: block;
+}
+.portugues li a:hover {
+    background: #ff0000;
+    color: #ffffff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+    text-shadow:0 0 5px #fff;
+}
+section#corpo {
+      display: block;
+}
+
+
+header#slider {
+    position: relative;
+    margin: -270px auto 0 auto;
+    padding: 0;
+    box-shadow: 1px 1px 4px black;
+}
+
+/* Formatação de Imagens com legendas */
+
+figure.foto-legenda-1 img {
+    margin: 20px 05px 20px;
+    padding: 0;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda-2 img {
+    margin: -232px 410px 37px;
+    padding: 0;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda-3 img {
+    margin: -249px 815px 57px;
+    padding: 0;
+    box-shadow: 1px 1px 4px black;
+}
+
+header#sobreingles {
+    position: absolute;
+    top: 310px;
+    width: 500px;
+    left: 105px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #15197D;
+}
+
+header#sobreespanhol {
+    position: absolute;
+    top: 310px;
+    width: 500px;
+    left: 105px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #15197D;
+}
+header#sobrefrances {
+    position: absolute;
+    top: 310px;
+    width: 500px;
+    left: 105px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #15197D;
+}
+header#sobreitaliano {
+    position: absolute;
+    top: 310px;
+    width: 500px;
+    left: 105px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #15197D;
+}
+header#sobreportugues {
+    position: absolute;
+    top: 310px;
+    width: 500px;
+    left: 105px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #15197D;
+}
+
+.fb-page {
+    position: relative;
+    margin: -20px 250px 20px 400px;
+    padding: 0;
+}
+
+footer#rodape p{
+    position: absolute;
+    top: 1280px;
+    left: 100px;
+    color: #ff0000;
+}

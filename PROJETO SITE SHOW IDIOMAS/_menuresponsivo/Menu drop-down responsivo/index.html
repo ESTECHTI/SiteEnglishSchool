@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Menu</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+    </head>
+
+    <body>
+    	<div class="pagina">
+            <h1>Menu drop-down responsivo</h1>
+            <nav class="menu">
+                <ul>
+                    <li class="amarelo">
+                        <a href="#">Amarelo</a>
+                        <ul>
+                            <li><a href="#">Amarelo 1.1</a></li>
+                            <li><a href="#">Amarelo 1.2</a></li>
+                            <li><a href="#">Amarelo 1.3</a></li>
+                            <li><a href="#">Amarelo 1.4</a></li>
+                        </ul>
+                    </li>
+                    <li class="azul-claro">
+                        <a href="#">Azul Claro</a>
+                        <ul>
+                            <li><a href="#">Azul Claro 1.1</a></li>
+                            <li><a href="#">Azul Claro 1.2</a></li>
+                            <li><a href="#">Azul Claro 1.3</a></li>
+                            <li><a href="#">Azul Claro 1.4</a></li>
+                        </ul>
+                    </li>
+                    <li class="azul-escuro">
+                        <a href="#">Azul Escuro</a>
+                        <ul>
+                            <li><a href="#">Azul Escuro 1.1</a></li>
+                            <li><a href="#">Azul Escuro 1.2</a></li>
+                            <li><a href="#">Azul Escuro 1.3</a></li>
+                            <li><a href="#">Azul Escuro 1.4</a></li>
+                        </ul>
+                    </li>
+                    <li class="roxo">
+                        <a href="#">Roxo</a>
+                        <ul>
+                            <li><a href="#">Roxo 1.1</a></li>
+                            <li><a href="#">Roxo 1.2</a></li>
+                            <li><a href="#">Roxo 1.3</a></li>
+                            <li><a href="#">Roxo 1.4</a></li>
+                        </ul>
+                    </li>
+                    <li class="verde">
+                        <a href="#">Verde</a>
+                        <ul>
+                            <li><a href="#">Verde 1.1</a></li>
+                            <li><a href="#">Verde 1.2</a></li>
+                            <li><a href="#">Verde 1.3</a></li>
+                            <li><a href="#">Verde 1.4</a></li>
+                        </ul>
+                    </li>
+                    <li class="verde-escuro">
+                        <a href="#">Verde Escuro</a>
+                        <ul>
+                            <li><a href="#">Verde Escuro 1.1</a></li>
+                            <li><a href="#">Verde Escuro 1.2</a></li>
+                            <li><a href="#">Verde Escuro 1.3</a></li>
+                            <li><a href="#">Verde Escuro 1.4</a></li>
+                        </ul>
+                    </li>
+                    <li class="vermelho">
+                        <a href="#">Vermelho</a>
+                        <ul>
+                            <li><a href="#">Vermelho 1.1</a></li>
+                            <li><a href="#">Vermelho 1.2</a></li>
+                            <li><a href="#">Vermelho 1.3</a></li>
+                            <li><a href="#">Vermelho 1.4</a></li>
+                        </ul>
+                    </li>
+                </ul> 
+            </nav>
+            
+            <p>Menu drop-down responsivo simples, feito com HTML5, CSS3 e jQuery.</p>
+            
+            <h2>Testado em:</h2>
+            <ul class="testado">
+                <li>Opera Mobile</li>
+                <li>Iphone </li>
+                <li>Ipad 2</li>
+            	<li>Chrome</li>
+                <li>Firefox</li>
+                <li>IE9+</li>
+                <li>Opera</li>
+            </ul>
+        </div>
+        <footer>
+            <p>Criado por: <a target="_blank" href="https://www.facebook.com/blogligarone">Eliane Garone</a></p>
+        </footer>
+        
+        <script src="jquery.min.js"></script>
+        <script>
+			$(".menu>ul").addClass("js");
+			$(".menu>ul").addClass("js").before('<div class="atalho">Menu</div>');
+
+			$(".atalho").click(function(){
+				$(".menu>ul").toggle();
+			});
+
+			$(window).resize(function(){
+				if(window.innerWidth > 768) {
+					$(".menu>ul").removeAttr("style");
+				}
+			});
+
+		</script>
+    </body>
+</html>

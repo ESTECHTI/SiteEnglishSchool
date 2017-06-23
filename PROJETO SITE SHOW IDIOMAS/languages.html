@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Show Idiomas</title>
+	<link rel="stylesheet" href="_css/estilo.css" type="text/css">
+<link rel='stylesheet' href='_calendario/jquery-ui.min.css' />
+<link href='_calendario/fullcalendar.css' rel='stylesheet' />
+<link href='_calendario/fullcalendar.print.css' rel='stylesheet' media='print' />
+<script src='_calendario/moment.min.js'></script>
+<script src='_calendario/jquery.min.js'></script>
+<script src='_calendario/fullcalendar.min.js'></script>
+<script src='_calendario/lang-all.js'></script>
+<script>
+
+	$(document).ready(function() {
+		var currentLangCode = 'en';
+
+		// build the language selector's options
+		$.each($.fullCalendar.langs, function(langCode) {
+			$('#lang-selector').append(
+				$('<option/>')
+					.attr('value', langCode)
+					.prop('selected', langCode == currentLangCode)
+					.text(langCode)
+			);
+		});
+
+		// rerender the calendar when the selected option changes
+		$('#lang-selector').on('change', function() {
+			if (this.value) {
+				currentLangCode = this.value;
+				$('#calendar').fullCalendar('destroy');
+				renderCalendar();
+			}
+		});
+
+		function renderCalendar() {
+			$('#calendar').fullCalendar({
+				header: {
+					left: 'prev,next today',
+					center: 'title',
+					right: 'month,agendaWeek,agendaDay'
+				},
+				defaultDate: '2016-01-12',
+				lang: currentLangCode,
+				buttonIcons: false, // show the prev/next text
+				weekNumbers: true,
+				editable: true,
+				eventLimit: true, // allow "more" link when too many events
+				events: [
+					{
+						title: 'All Day Event',
+						start: '2016-01-01'
+					},
+					{
+						title: 'Long Event',
+						start: '2016-01-07',
+						end: '2016-01-10'
+					},
+					{
+						id: 999,
+						title: 'Repeating Event',
+						start: '2016-01-09T16:00:00'
+					},
+					{
+						id: 999,
+						title: 'Repeating Event',
+						start: '2016-01-16T16:00:00'
+					},
+					{
+						title: 'Conference',
+						start: '2016-01-11',
+						end: '2016-01-13'
+					},
+					{
+						title: 'Meeting',
+						start: '2016-01-12T10:30:00',
+						end: '2016-01-12T12:30:00'
+					},
+					{
+						title: 'Lunch',
+						start: '2016-01-12T12:00:00'
+					},
+					{
+						title: 'Meeting',
+						start: '2016-01-12T14:30:00'
+					},
+					{
+						title: 'Happy Hour',
+						start: '2016-01-12T17:30:00'
+					},
+					{
+						title: 'Dinner',
+						start: '2016-01-12T20:00:00'
+					},
+					{
+						title: 'Birthday Party',
+						start: '2016-01-13T07:00:00'
+					},
+					{
+						title: 'Click for Google',
+						url: 'http://google.com/',
+						start: '2016-01-28'
+					}
+				]
+			});
+		}
+
+		renderCalendar();
+	});
+
+</script>
+<style>
+
+	#calendar {
+		max-width: 900px;
+		margin: 40px auto;
+		padding: 0 10px;
+	}
+
+</style>
+</head>
+<body class="center clearfix">
+
+<header>
+	<img id="logo" src="_imagens/logoshowsite.jpg">
+</header><!-- fim header -->
+
+
+	<div id='top'>
+
+		Language:
+		<select id='lang-selector'></select>
+
+	</div>
+
+	<div id='calendar'></div>
+
+
+<nav class="menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="">Cursos</a>
+			<ul>
+				<li><a href="ingles.html">Inglês</a></li>
+				<li><a href="espanhol.html">Espanhol</a> </li>
+				<li><a href="italiano.html">Italiano</a> </li>
+				<li><a href="frances.html">Francês</a> </li>
+				<li><a href="portugues.html">Português</a> </li>
+			</ul>
+		</li>
+		<li><a href="fotos-show.html">Fotos Show</a></li>
+		<li><a href="_shownews/show-news.html">Show News</a></li>
+		<li><a href="dicas-do-professor.html">Dicas do Prof.</a></li>
+		<li><a href="_calendario/meses.html">Calendário</a></li>
+		<li><a href="onde-estamos.html">Onde Estamos</a></li>
+		<li><a href="fale-com-a-show.html">Fale c/Show</a></li>
+	</ul>
+</nav>
+
+
+
+<footer>
+	<small class="copyright">
+		<p>Copyright © 2016 - Todos os Direitos Reservados à Show Idiomas
+	</small><!-- fim .copyright -->
+	<small class="desenvolvedor">
+		Desenvolvedor
+	</small><!-- fim .desenvolvedor -->
+</footer><!-- fim footer -->
+
+
+<script src="_javascript/jquery.min.js"></script>
+<script>
+	$(".menu>ul").addClass("js");
+	$(".menu>ul").addClass("js").before('<div class="atalho">Menu</div>');
+
+	$(".atalho").click(function(){
+		$(".menu>ul").toggle();
+	});
+
+	$(window).resize(function(){
+		if(window.innerWidth > 768) {
+			$(".menu>ul").removeAttr("style");
+		}
+	});
+</script>
+
+
+</body>
+
+</html>

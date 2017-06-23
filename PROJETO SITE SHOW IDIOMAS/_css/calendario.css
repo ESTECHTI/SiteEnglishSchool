@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+#cashow {
+    position: relative;
+    top: -250px;
+    text-align: center;
+    color: #ff0000;
+}
+#feriados {
+    position: relative;
+    top: -250px;
+    left: 40px;
+    color: darkslateblue;
+}
+
+
+#janeiro {
+    position: relative;
+    top: -240px;
+    left: -20px;
+}
+
+#fevereiro {
+    position: relative;
+    top: -452px;
+    left: 180px;
+}
+
+#marco {
+    position: relative;
+    top: -664px;
+    left: 380px;
+}
+#abril {
+    position: relative;
+    top: -876px;
+    left: 580px;
+}
+#maio {
+    position: relative;
+    top: -1088px;
+    left: 780px;
+}
+#junho {
+    position: relative;
+    top: -1325px;
+    left: 980px;
+}
+
+#julho {
+    position: relative;
+    top: -1320px;
+    left: -20px;
+}
+
+#agosto {
+    position: relative;
+    top: -1532px;
+    left: 180px;
+}
+
+#setembro {
+    position: relative;
+    top: -1768px;
+    left: 380px;
+}
+#outubro {
+    position: relative;
+    top: -1980px;
+    left: 580px;
+}
+#novembro {
+    position: relative;
+    top: -2192px;
+    left: 780px;
+}
+#dezembro {
+    position: relative;
+    top: -2405px;
+    left: 980px;
+}
